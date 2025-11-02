@@ -1,0 +1,55 @@
+header{
+    background-color: royalblue;
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px 0px, gray;
+}
+
+body{
+    font-family: 'Segoe UI', system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(to right, rgb(53, 102, 172), white);
+    font-weight: lighter;
+    text-align: center;
+}
+
+.main-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card{
+    background: linear-gradient(to right, rgb(56, 119, 227), rgb(135, 37, 162));
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0px 4px 8px grey;
+    color:white;
+    width: 380px;
+    box-sizing: border-box;
+}
+
+.card input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid gray
+}
+
+button{
+    margin: 20px 0 0 0;
+    padding: 10px 16px;
+    width: auto;
+    display: inline-block;
+}
+
+footer{
+    font-style: italic;
+}
+
